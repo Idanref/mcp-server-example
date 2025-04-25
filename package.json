@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node build/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "inspector": "npx @modelcontextprotocol/inspector node index.js"
   },
   "keywords": [],
   "author": "",
